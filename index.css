@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(5, 5, 62);
+  color: white;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.score {
+  display: flex;
+  flex: 1 0 100px;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.home {
+  margin: 40px;
+}
+
+.guest {
+  margin-right: 40px;
+}
+
+.incrementers {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+}
+span {
+  border: 1px solid gold;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.num {
+  border: 3px solid gold;
+  border-radius: 5px;
+  padding: 50px;
+  font-family: "Press Start 2P", cursive;
+  font-size: 40px;
+}
+
+#one {
+  margin-left: 40px;
+}
+
+#two {
+  margin-right: 40px;
+}
